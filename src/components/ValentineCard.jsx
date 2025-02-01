@@ -20,7 +20,7 @@ export function ValentineCard({ onAccept }) {
     <div className="animate-fade-in bg-white p-8 rounded-lg shadow-xl max-w-md w-full text-center">
       <Heart className="w-16 h-16 text-red-500 mx-auto mb-6 animate-pulse" />
       <h1 className="text-4xl font-bold mb-12 text-gray-800 font-valentine">
-        Will you be my valentine?
+        Will you accept all my love and surprises on your birthday?
       </h1>
 
       <div className="relative h-32 mx-auto max-w-sm">
