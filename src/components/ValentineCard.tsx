@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Heart } from 'lucide-react';
 
 interface ValentineCardProps {
@@ -26,7 +26,7 @@ export function ValentineCard({ onAccept }: ValentineCardProps) {
       <h1 className="text-4xl font-bold mb-12 text-gray-800 font-valentine">
         Will you be my valentine?
       </h1>
-      
+
       <div className="relative h-32 mx-auto max-w-sm">
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <button
@@ -36,7 +36,7 @@ export function ValentineCard({ onAccept }: ValentineCardProps) {
             Yes
           </button>
         </div>
-        
+
         <button
           onMouseEnter={moveButton}
           className="absolute left-1/2 top-1/2 bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-200"

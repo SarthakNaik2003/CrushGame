@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { navItems } from './constants';
 import { NavItem } from './NavItem';
@@ -27,8 +27,8 @@ export function MobileNav() {
         <div className="container mx-auto px-6 py-8">
           <div className="flex flex-col gap-6">
             {navItems.map((item) => (
-              <div 
-                key={item.label} 
+              <div
+                key={item.label}
                 className="border-b border-[#6489ad]/20 last:border-b-0"
               >
                 <NavItem {...item} isMobile />

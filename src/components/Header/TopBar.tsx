@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { ArrowRight, Phone } from 'lucide-react';
 
 export function TopBar() {

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 interface ProfileImageProps {
   imageUrl: string;
@@ -9,8 +9,8 @@ export function ProfileImage({ imageUrl, alt }: ProfileImageProps) {
   return (
     <div className="flex flex-col items-center gap-4">
       <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white overflow-hidden">
-        <img 
-          src={imageUrl} 
+        <img
+          src={imageUrl}
           alt={alt}
           className="w-full h-full object-cover"
         />

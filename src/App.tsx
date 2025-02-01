@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { GiftBox } from './components/GiftBox';
 import { ValentineCard } from './components/ValentineCard';
 import { FinalMessage } from './components/FinalMessage';

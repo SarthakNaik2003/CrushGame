@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Gift } from 'lucide-react';
 
 interface GiftBoxProps {
