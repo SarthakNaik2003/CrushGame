@@ -1,13 +1,9 @@
-// import React from 'react';
+import React from 'react';
 import { Gift } from 'lucide-react';
 
-interface GiftBoxProps {
-  onOpen: () => void;
-}
-
-export function GiftBox({ onOpen }: GiftBoxProps) {
+export function GiftBox({ onOpen }) {
   return (
-    <div 
+    <div
       onClick={onOpen}
       className="animate-bounce cursor-pointer transform transition-transform hover:scale-105"
     >

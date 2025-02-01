@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { GiftBox } from './components/GiftBox';
 import { ValentineCard } from './components/ValentineCard';
 import { FinalMessage } from './components/FinalMessage';
 
 function App() {
-  const [stage, setStage] = useState<'gift' | 'question' | 'final'>('gift');
+  const [stage, setStage] = useState('gift');
 
   return (
     <div className="min-h-screen bg-pink-100 flex items-center justify-center p-4">

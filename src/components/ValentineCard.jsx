@@ -1,11 +1,7 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Heart } from 'lucide-react';
 
-interface ValentineCardProps {
-  onAccept: () => void;
-}
-
-export function ValentineCard({ onAccept }: ValentineCardProps) {
+export function ValentineCard({ onAccept }) {
   const [noButtonPosition, setNoButtonPosition] = useState({ x: 0, y: 0 });
 
   const moveButton = () => {
@@ -28,7 +24,7 @@ export function ValentineCard({ onAccept }: ValentineCardProps) {
       </h1>
 
       <div className="relative h-32 mx-auto max-w-sm">
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute left-1/3 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <button
             onClick={onAccept}
             className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-110"
